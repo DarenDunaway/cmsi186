@@ -11,10 +11,10 @@ public class HighRoll {
   public static int highScore;
   public static int score = 0;
 
-  public static DieSet userDieSet;
+  public static DiceSet userDiceSet;
 
   public static void evaluateInputtedCount() {
-    System.out.println("Welcome to High Roll! Enter the amount of dice for your DieSet!");
+    System.out.println("Welcome to High Roll! Enter the amount of dice for your DiceSet!");
 
     Scanner inputtedCount = new Scanner(System.in);
 
@@ -28,7 +28,7 @@ public class HighRoll {
   }
 
   public static void evaluateInputtedSides() {
-    System.out.println("Enter the amount of sides for the die in your DieSet");
+    System.out.println("Enter the amount of sides for the die in your DiceSet");
 
     Scanner inputtedSides = new Scanner(System.in);
 
@@ -41,9 +41,9 @@ public class HighRoll {
     System.exit(0);
   }
 
-  public static void createDieSet() {
-    userDieSet = new DieSet(count, sides);
-    System.out.println(userDieSet.toString());
+  public static void createDiceSet() {
+    userDiceSet = new DiceSet(count, sides);
+    System.out.println(userDiceSet.toString());
   }
 
   public static void promptMainMenu() {
@@ -55,11 +55,11 @@ public class HighRoll {
         String option = inputtedOption.readLine();
         switch (option.charAt(0)) {
             case '1':
-              score = score + userDieSet.sum();
-              userDieSet.roll();
+              score = score + userDiceSet.sum();
+              userDiceSet.roll();
               break;
             case '2':
-              score = score + userDieSet.rollIndividual((int) Math.random() * (count - 1));
+              score = score + userDiceSet.rollIndividual((int) Math.random() * (count - 1));
               break;
             case '3':
               System.out.println(String.format("Score: %d", score));
@@ -88,7 +88,7 @@ public class HighRoll {
   public static void main(String args[]) {
     evaluateInputtedCount();
     evaluateInputtedSides();
-    createDieSet();
+    createDiceSet();
     promptMainMenu();
   }
 }

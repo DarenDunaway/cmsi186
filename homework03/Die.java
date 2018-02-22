@@ -43,8 +43,8 @@ public class Die {
    * private instance data
    */
    private int numberOfSides;
-   private int value;
-   private final int MINIMUM_SIDES = 6;
+   private int value = 0;
+   private final int MINIMUM_SIDES = 4;
 
    // public constructor:
   /**
@@ -61,7 +61,6 @@ public class Die {
      }
 
      numberOfSides = nSides;
-     value = numberOfSides;
    }
 
   /**
@@ -69,7 +68,7 @@ public class Die {
    * @return  integer value of the result of the roll, randomly selected
    */
    public int roll() {
-      int value = (int) Math.floor(Math.random() * numberOfSides);
+      value = (int) Math.floor(Math.random() * numberOfSides);
       System.out.println(String.format("You rolled a %d!", value));
       return value;
    }
@@ -82,7 +81,6 @@ public class Die {
    * @return the pip count of THIS die instance
    */
    public int getValue() {
-     value = numberOfSides;
      return value;
    }
 
