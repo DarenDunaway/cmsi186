@@ -1,0 +1,2636 @@
+Die testing...
+Test for Die Roll
+You rolled a 1!
+Die rolled a 1
+Test for Die Roll
+You rolled a 4!
+Die rolled a 4
+Test for Die Roll
+You rolled a 2!
+Die rolled a 2
+Test for Die Roll
+You rolled a 0!
+Die rolled a 0
+Test for pip value
+Die pip value: 0
+Test for setting sides to 6
+True
+Test for setting sides to 100
+True
+Test for Die toString()
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 100
+ Value: 0
+Testing for static toString()
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 100
+ Value: 0
+Test for DiceSet Constructor
+DiceSet stats:
+ DiceSet Sides: 6
+ DiceSet Count: 4
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+[0][0][0][0]
+Test for sum()
+Sum: 30
+Sum: 60
+Test for roll()
+Rolling testDiceSet4
+You rolled a 19!
+Roll 0:
+Value: 19
+You rolled a 4!
+Roll 1:
+Value: 4
+You rolled a 2!
+Roll 2:
+Value: 2
+You rolled a 5!
+Roll 3:
+Value: 5
+You rolled a 4!
+Roll 4:
+Value: 4
+You rolled a 4!
+Roll 5:
+Value: 4
+You rolled a 9!
+Roll 6:
+Value: 9
+You rolled a 18!
+Roll 7:
+Value: 18
+You rolled a 2!
+Roll 8:
+Value: 2
+Rolling testDiceSet5
+You rolled a 14!
+Roll 0:
+Value: 14
+You rolled a 13!
+Roll 1:
+Value: 13
+You rolled a 4!
+Roll 2:
+Value: 4
+You rolled a 14!
+Roll 3:
+Value: 14
+Test for rollIndividual()
+You rolled a 0!
+Rolled new value at index 1:
+0
+You rolled a 3!
+Rolled new value at index 3
+3
+Test for getIndividual()
+Got 0 at index 1
+Got 0 at index 3
+Test for public instance toString()
+DiceSet stats:
+ DiceSet Sides: 6
+ DiceSet Count: 8
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+[0][0][0][0][0][0][0][0]
+Test for class instance toString()
+DiceSet stats:
+ DiceSet Sides: 6
+ DiceSet Count: 6
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+[0][0][0][0][0][0]
+Test for isIdentical()
+identical
+not identical
+TESTING THE DIE CLASS: TEST CONSTRUCTOR FOR INVALID NUMBERS OF SIDES:
+   Too few sides requested to constructor....
+   Too few sides requested to constructor....
+   Too few sides requested to constructor....
+   Too few sides requested to constructor....
+TESTING THE DIE CLASS: TESTS ON 4-SIDED DIE:
+   roll() test for 4 sided die: 
+You rolled a 2!
+   You rolled a 2
+You rolled a 1!
+   You rolled a 1
+You rolled a 2!
+   You rolled a 2
+You rolled a 0!
+   You rolled a 0
+You rolled a 2!
+   You rolled a 2
+   Current value is: Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 2
+TESTING THE DIE CLASS: TESTS ON 5-SIDED DIE:
+   roll() test for 5 sided die: 
+You rolled a 2!
+   You rolled a 2
+You rolled a 0!
+   You rolled a 0
+You rolled a 2!
+   You rolled a 2
+You rolled a 2!
+   You rolled a 2
+You rolled a 0!
+   You rolled a 0
+   Current value is: Die stats:
+ Minimum Sides: 4
+ Number of Sides: 5
+ Value: 0
+TESTING THE DIE CLASS: TESTS ON 6-SIDED DIE:
+   roll() test for 6 sided die: 
+You rolled a 3!
+   You rolled a 3
+You rolled a 1!
+   You rolled a 1
+You rolled a 3!
+   You rolled a 3
+You rolled a 5!
+   You rolled a 5
+You rolled a 3!
+   You rolled a 3
+   Current value is: Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 3
+TESTING THE DIE CLASS: TESTS ON 7-SIDED DIE:
+   roll() test for 7 sided die: 
+You rolled a 3!
+   You rolled a 3
+You rolled a 3!
+   You rolled a 3
+You rolled a 2!
+   You rolled a 2
+You rolled a 0!
+   You rolled a 0
+You rolled a 1!
+   You rolled a 1
+   Current value is: Die stats:
+ Minimum Sides: 4
+ Number of Sides: 7
+ Value: 1
+TESTING THE DIE CLASS: TESTS ON 8-SIDED DIE:
+   roll() test for 8 sided die: 
+You rolled a 4!
+   You rolled a 4
+You rolled a 1!
+   You rolled a 1
+You rolled a 3!
+   You rolled a 3
+You rolled a 0!
+   You rolled a 0
+You rolled a 0!
+   You rolled a 0
+   Current value is: Die stats:
+ Minimum Sides: 4
+ Number of Sides: 8
+ Value: 0
+   Current die side count is: 0
+TESTING THE DIE CLASS: TESTS ON 11-SIDED DIE USING NEW SIDE COUNT:
+   Resetting - current die side count is now: 0
+   Rolling with new side count -- 
+You rolled a 4!
+      You rolled a 4
+You rolled a 2!
+      You rolled a 2
+You rolled a 7!
+      You rolled a 7
+You rolled a 1!
+      You rolled a 1
+You rolled a 6!
+      You rolled a 6
+TESTING THE DIE CLASS: TESTS ON 17-SIDED DIE USING NEW SIDE COUNT:
+   Resetting - current die side count is now: 6
+   Rolling with new side count -- 
+You rolled a 9!
+      You rolled a 9
+      current value is: 9
+TESTING THE DIE CLASS: TESTS ON 111-SIDED DIE USING NEW SIDE COUNT:
+   Resetting - current die side count is now: 9
+   Rolling with new side count -- 
+You rolled a 59!
+      You rolled a 59
+      current value is: 59
+......End of Die Class Testing.....
+
+
+TESTING THE DICESET CLASS: TEST CONSTRUCTOR FOR 3 SIX-SIDED DICE:
+  DiceSet: 3 dice, six sided - ds36:
+DiceSet stats:
+ DiceSet Sides: 6
+ DiceSet Count: 3
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+      initialized ds36 contents             : [0][0][0]
+You rolled a 3!
+Roll 0:
+Value: 3
+You rolled a 2!
+Roll 1:
+Value: 2
+DiceSet stats:
+ DiceSet Sides: 6
+ DiceSet Count: 3
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 3
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 2
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+      after collective roll ds36 contents   : [3][2][0]
+You rolled a 1!
+DiceSet stats:
+ DiceSet Sides: 6
+ DiceSet Count: 3
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 3
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 2
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 1
+      after individual roll(2) ds36 contents: [3][2][1]
+      sum of dice values is: 18
+   Re-rolling all dice
+You rolled a 0!
+Roll 0:
+Value: 0
+You rolled a 2!
+Roll 1:
+Value: 2
+DiceSet stats:
+ DiceSet Sides: 6
+ DiceSet Count: 3
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 2
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 1
+      after collective roll ds36 contents   : [0][2][1]
+You rolled a 4!
+DiceSet stats:
+ DiceSet Sides: 6
+ DiceSet Count: 3
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 2
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 4
+      after individual roll(2) ds36 contents: [0][2][4]
+      sum of dice values is                 : 18
+   Test of getIndividual(): 
+      value of die at index 0: 0
+      value of die at index 1: 2
+      value of die at index 2: 4
+TESTING THE DICESET CLASS: TEST CONSTRUCTOR FOR 6 NINE-SIDED DICE:
+   DiceSet: 6 dice, nine sided - ds69:
+DiceSet stats:
+ DiceSet Sides: 9
+ DiceSet Count: 6
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 0
+      initialized ds36 contents             : [0][0][0][0][0][0]
+You rolled a 0!
+Roll 0:
+Value: 0
+You rolled a 6!
+Roll 1:
+Value: 6
+You rolled a 3!
+Roll 2:
+Value: 3
+You rolled a 4!
+Roll 3:
+Value: 4
+You rolled a 1!
+Roll 4:
+Value: 1
+DiceSet stats:
+ DiceSet Sides: 9
+ DiceSet Count: 6
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 6
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 3
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 4
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 1
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 0
+      after collective roll ds69 contents   : [0][6][3][4][1][0]
+You rolled a 4!
+DiceSet stats:
+ DiceSet Sides: 9
+ DiceSet Count: 6
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 6
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 4
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 4
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 1
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 0
+      after individual roll(2) ds69 contents: [0][6][4][4][1][0]
+      sum of dice values is                 : 54
+   Re-rolling all dice
+You rolled a 5!
+Roll 0:
+Value: 5
+You rolled a 8!
+Roll 1:
+Value: 8
+You rolled a 3!
+Roll 2:
+Value: 3
+You rolled a 4!
+Roll 3:
+Value: 4
+You rolled a 2!
+Roll 4:
+Value: 2
+DiceSet stats:
+ DiceSet Sides: 9
+ DiceSet Count: 6
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 5
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 8
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 3
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 4
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 2
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 0
+      after collective roll ds69 contents   : [5][8][3][4][2][0]
+You rolled a 1!
+DiceSet stats:
+ DiceSet Sides: 9
+ DiceSet Count: 6
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 5
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 8
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 3
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 1
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 2
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 9
+ Value: 0
+      after individual roll(3) ds69 contents: [5][8][3][1][2][0]
+      sum of dice values is                 : 54
+   Test of getIndividual(): 
+      value of die at index 0: 5
+      value of die at index 1: 8
+      value of die at index 2: 3
+      value of die at index 3: 1
+      value of die at index 4: 2
+      value of die at index 5: 0
+TESTING THE DICESET CLASS: TEST CONSTRUCTOR FOR 9 SEVENTEEN-SIDED DICE:
+   DiceSet: 9 dice, 17 sided - ds917:
+DiceSet stats:
+ DiceSet Sides: 17
+ DiceSet Count: 9
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+      initialized ds36 contents              : [0][0][0][0][0][0][0][0][0]
+You rolled a 10!
+Roll 0:
+Value: 10
+You rolled a 0!
+Roll 1:
+Value: 0
+You rolled a 5!
+Roll 2:
+Value: 5
+You rolled a 4!
+Roll 3:
+Value: 4
+You rolled a 6!
+Roll 4:
+Value: 6
+You rolled a 4!
+Roll 5:
+Value: 4
+You rolled a 2!
+Roll 6:
+Value: 2
+You rolled a 0!
+Roll 7:
+Value: 0
+DiceSet stats:
+ DiceSet Sides: 17
+ DiceSet Count: 9
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 10
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 5
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 4
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 6
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 4
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 2
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+      after collective roll ds917 contents   : [10][0][5][4][6][4][2][0][0]
+You rolled a 13!
+DiceSet stats:
+ DiceSet Sides: 17
+ DiceSet Count: 9
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 10
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 5
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 4
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 6
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 4
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 13
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+      after individual roll(6) ds917 contents: [10][0][5][4][6][4][13][0][0]
+      sum of dice values is                  : 153
+   Re-rolling all dice
+You rolled a 8!
+Roll 0:
+Value: 8
+You rolled a 1!
+Roll 1:
+Value: 1
+You rolled a 3!
+Roll 2:
+Value: 3
+You rolled a 12!
+Roll 3:
+Value: 12
+You rolled a 11!
+Roll 4:
+Value: 11
+You rolled a 12!
+Roll 5:
+Value: 12
+You rolled a 8!
+Roll 6:
+Value: 8
+You rolled a 12!
+Roll 7:
+Value: 12
+DiceSet stats:
+ DiceSet Sides: 17
+ DiceSet Count: 9
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 8
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 1
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 3
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 12
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 11
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 12
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 8
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 12
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+      after collective roll ds917 contents   : [8][1][3][12][11][12][8][12][0]
+You rolled a 0!
+DiceSet stats:
+ DiceSet Sides: 17
+ DiceSet Count: 9
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 8
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 1
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 3
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 12
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 11
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 12
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 8
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 12
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+      after individual roll(8) ds69 contents : [8][1][3][12][11][12][8][12][0]
+      sum of dice values is                  : 153
+   Test of getIndividual(): 
+      value of die at index 0: 8
+      value of die at index 1: 1
+      value of die at index 2: 3
+      value of die at index 3: 12
+      value of die at index 4: 11
+      value of die at index 5: 12
+      value of die at index 6: 8
+      value of die at index 7: 12
+      value of die at index 8: 0
+TESTING THE DICESET CLASS: TEST 'isIdentical()' FOR 9 SEVENTEEN-SIDED DICE:
+   Test of isIndentical(): 
+      Test of ds917 against ds69   : false
+      Test of ds917 against itself : true
+TESTING THE DICESET CLASS: TEST 'isIdentical()' FOR NEW SET OF 9 SEVENTEEN-SIDED DICE:
+You rolled a 9!
+Roll 0:
+Value: 9
+You rolled a 7!
+Roll 1:
+Value: 7
+You rolled a 0!
+Roll 2:
+Value: 0
+You rolled a 14!
+Roll 3:
+Value: 14
+You rolled a 13!
+Roll 4:
+Value: 13
+You rolled a 16!
+Roll 5:
+Value: 16
+You rolled a 9!
+Roll 6:
+Value: 9
+You rolled a 5!
+Roll 7:
+Value: 5
+You rolled a 13!
+Roll 0:
+Value: 13
+You rolled a 1!
+Roll 1:
+Value: 1
+You rolled a 2!
+Roll 2:
+Value: 2
+You rolled a 14!
+Roll 3:
+Value: 14
+You rolled a 1!
+Roll 4:
+Value: 1
+You rolled a 5!
+Roll 5:
+Value: 5
+You rolled a 1!
+Roll 6:
+Value: 1
+You rolled a 1!
+Roll 7:
+Value: 1
+DiceSet stats:
+ DiceSet Sides: 17
+ DiceSet Count: 9
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 9
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 7
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 14
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 13
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 16
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 9
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 5
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+   DiceSet ds917 contents       : [9][7][0][14][13][16][9][5][0]
+DiceSet stats:
+ DiceSet Sides: 17
+ DiceSet Count: 9
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 13
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 1
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 2
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 14
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 1
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 5
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 1
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 1
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+      New DiceSet ds2_917 contents : [13][1][2][14][1][5][1][1][0]
+      Test of ds917 against ds2_917: true
+......End of DiceSet Class Testing.....
+
+
+Welcome to High Roll! Enter the amount of dice for your DiceSet!
+Enter the amount of sides for the die in your DiceSet
+DiceSet stats:
+ DiceSet Sides: 6
+ DiceSet Count: 5
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 6
+ Value: 0
+[0][0][0][0][0]
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 1!
+Roll 0:
+Value: 1
+You rolled a 2!
+Roll 1:
+Value: 2
+You rolled a 1!
+Roll 2:
+Value: 1
+You rolled a 0!
+Roll 3:
+Value: 0
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 1!
+Roll 0:
+Value: 1
+You rolled a 0!
+Roll 1:
+Value: 0
+You rolled a 5!
+Roll 2:
+Value: 5
+You rolled a 4!
+Roll 3:
+Value: 4
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 2!
+Roll 0:
+Value: 2
+You rolled a 3!
+Roll 1:
+Value: 3
+You rolled a 3!
+Roll 2:
+Value: 3
+You rolled a 1!
+Roll 3:
+Value: 1
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 5!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Score: 95
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 5!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Your highscore is 0
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 2!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 5!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Score: 107
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+New Highscore: 107
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Your highscore is 107
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 4!
+Roll 0:
+Value: 4
+You rolled a 4!
+Roll 1:
+Value: 4
+You rolled a 0!
+Roll 2:
+Value: 0
+You rolled a 3!
+Roll 3:
+Value: 3
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 0!
+Roll 0:
+Value: 0
+You rolled a 1!
+Roll 1:
+Value: 1
+You rolled a 5!
+Roll 2:
+Value: 5
+You rolled a 0!
+Roll 3:
+Value: 0
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 4!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Your highscore is 107
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 1!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 5!
+Roll 0:
+Value: 5
+You rolled a 5!
+Roll 1:
+Value: 5
+You rolled a 5!
+Roll 2:
+Value: 5
+You rolled a 1!
+Roll 3:
+Value: 1
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Score: 202
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+New Highscore: 202
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Your highscore is 202
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Goodbye!
+Welcome to High Roll! Enter the amount of dice for your DiceSet!
+Enter the amount of sides for the die in your DiceSet
+DiceSet stats:
+ DiceSet Sides: 17
+ DiceSet Count: 11
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 17
+ Value: 0
+[0][0][0][0][0][0][0][0][0][0][0]
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 10!
+Roll 0:
+Value: 10
+You rolled a 5!
+Roll 1:
+Value: 5
+You rolled a 12!
+Roll 2:
+Value: 12
+You rolled a 9!
+Roll 3:
+Value: 9
+You rolled a 7!
+Roll 4:
+Value: 7
+You rolled a 8!
+Roll 5:
+Value: 8
+You rolled a 0!
+Roll 6:
+Value: 0
+You rolled a 6!
+Roll 7:
+Value: 6
+You rolled a 2!
+Roll 8:
+Value: 2
+You rolled a 10!
+Roll 9:
+Value: 10
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 7!
+Roll 0:
+Value: 7
+You rolled a 9!
+Roll 1:
+Value: 9
+You rolled a 15!
+Roll 2:
+Value: 15
+You rolled a 4!
+Roll 3:
+Value: 4
+You rolled a 3!
+Roll 4:
+Value: 3
+You rolled a 3!
+Roll 5:
+Value: 3
+You rolled a 5!
+Roll 6:
+Value: 5
+You rolled a 15!
+Roll 7:
+Value: 15
+You rolled a 6!
+Roll 8:
+Value: 6
+You rolled a 7!
+Roll 9:
+Value: 7
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 7!
+Roll 0:
+Value: 7
+You rolled a 5!
+Roll 1:
+Value: 5
+You rolled a 4!
+Roll 2:
+Value: 4
+You rolled a 13!
+Roll 3:
+Value: 13
+You rolled a 7!
+Roll 4:
+Value: 7
+You rolled a 5!
+Roll 5:
+Value: 5
+You rolled a 6!
+Roll 6:
+Value: 6
+You rolled a 0!
+Roll 7:
+Value: 0
+You rolled a 7!
+Roll 8:
+Value: 7
+You rolled a 11!
+Roll 9:
+Value: 11
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 1!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 9!
+Roll 0:
+Value: 9
+You rolled a 11!
+Roll 1:
+Value: 11
+You rolled a 10!
+Roll 2:
+Value: 10
+You rolled a 2!
+Roll 3:
+Value: 2
+You rolled a 11!
+Roll 4:
+Value: 11
+You rolled a 8!
+Roll 5:
+Value: 8
+You rolled a 10!
+Roll 6:
+Value: 10
+You rolled a 15!
+Roll 7:
+Value: 15
+You rolled a 14!
+Roll 8:
+Value: 14
+You rolled a 10!
+Roll 9:
+Value: 10
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 0!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 6!
+Roll 0:
+Value: 6
+You rolled a 10!
+Roll 1:
+Value: 10
+You rolled a 0!
+Roll 2:
+Value: 0
+You rolled a 10!
+Roll 3:
+Value: 10
+You rolled a 0!
+Roll 4:
+Value: 0
+You rolled a 10!
+Roll 5:
+Value: 10
+You rolled a 0!
+Roll 6:
+Value: 0
+You rolled a 4!
+Roll 7:
+Value: 4
+You rolled a 5!
+Roll 8:
+Value: 5
+You rolled a 4!
+Roll 9:
+Value: 4
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 2!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You must input a integer!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Score: 938
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+New Highscore: 938
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Your highscore is 938
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 3!
+Roll 0:
+Value: 3
+You rolled a 4!
+Roll 1:
+Value: 4
+You rolled a 12!
+Roll 2:
+Value: 12
+You rolled a 1!
+Roll 3:
+Value: 1
+You rolled a 3!
+Roll 4:
+Value: 3
+You rolled a 4!
+Roll 5:
+Value: 4
+You rolled a 15!
+Roll 6:
+Value: 15
+You rolled a 16!
+Roll 7:
+Value: 16
+You rolled a 9!
+Roll 8:
+Value: 9
+You rolled a 7!
+Roll 9:
+Value: 7
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 15!
+Roll 0:
+Value: 15
+You rolled a 4!
+Roll 1:
+Value: 4
+You rolled a 14!
+Roll 2:
+Value: 14
+You rolled a 8!
+Roll 3:
+Value: 8
+You rolled a 13!
+Roll 4:
+Value: 13
+You rolled a 14!
+Roll 5:
+Value: 14
+You rolled a 4!
+Roll 6:
+Value: 4
+You rolled a 9!
+Roll 7:
+Value: 9
+You rolled a 15!
+Roll 8:
+Value: 15
+You rolled a 15!
+Roll 9:
+Value: 15
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 8!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Your highscore is 938
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 11!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Score: 1331
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Score: 1331
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+New Highscore: 1331
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Your highscore is 1331
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Goodbye!
+Welcome to High Roll! Enter the amount of dice for your DiceSet!
+Enter the amount of sides for the die in your DiceSet
+DiceSet stats:
+ DiceSet Sides: 4
+ DiceSet Count: 29
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+Die stats:
+ Minimum Sides: 4
+ Number of Sides: 4
+ Value: 0
+[0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0]
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 2!
+Roll 0:
+Value: 2
+You rolled a 1!
+Roll 1:
+Value: 1
+You rolled a 0!
+Roll 2:
+Value: 0
+You rolled a 0!
+Roll 3:
+Value: 0
+You rolled a 3!
+Roll 4:
+Value: 3
+You rolled a 1!
+Roll 5:
+Value: 1
+You rolled a 2!
+Roll 6:
+Value: 2
+You rolled a 2!
+Roll 7:
+Value: 2
+You rolled a 3!
+Roll 8:
+Value: 3
+You rolled a 2!
+Roll 9:
+Value: 2
+You rolled a 3!
+Roll 10:
+Value: 3
+You rolled a 3!
+Roll 11:
+Value: 3
+You rolled a 0!
+Roll 12:
+Value: 0
+You rolled a 0!
+Roll 13:
+Value: 0
+You rolled a 1!
+Roll 14:
+Value: 1
+You rolled a 0!
+Roll 15:
+Value: 0
+You rolled a 3!
+Roll 16:
+Value: 3
+You rolled a 2!
+Roll 17:
+Value: 2
+You rolled a 3!
+Roll 18:
+Value: 3
+You rolled a 2!
+Roll 19:
+Value: 2
+You rolled a 1!
+Roll 20:
+Value: 1
+You rolled a 1!
+Roll 21:
+Value: 1
+You rolled a 0!
+Roll 22:
+Value: 0
+You rolled a 3!
+Roll 23:
+Value: 3
+You rolled a 2!
+Roll 24:
+Value: 2
+You rolled a 0!
+Roll 25:
+Value: 0
+You rolled a 2!
+Roll 26:
+Value: 2
+You rolled a 1!
+Roll 27:
+Value: 1
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 1!
+Roll 0:
+Value: 1
+You rolled a 1!
+Roll 1:
+Value: 1
+You rolled a 1!
+Roll 2:
+Value: 1
+You rolled a 2!
+Roll 3:
+Value: 2
+You rolled a 1!
+Roll 4:
+Value: 1
+You rolled a 1!
+Roll 5:
+Value: 1
+You rolled a 1!
+Roll 6:
+Value: 1
+You rolled a 1!
+Roll 7:
+Value: 1
+You rolled a 2!
+Roll 8:
+Value: 2
+You rolled a 2!
+Roll 9:
+Value: 2
+You rolled a 2!
+Roll 10:
+Value: 2
+You rolled a 0!
+Roll 11:
+Value: 0
+You rolled a 3!
+Roll 12:
+Value: 3
+You rolled a 3!
+Roll 13:
+Value: 3
+You rolled a 1!
+Roll 14:
+Value: 1
+You rolled a 1!
+Roll 15:
+Value: 1
+You rolled a 2!
+Roll 16:
+Value: 2
+You rolled a 0!
+Roll 17:
+Value: 0
+You rolled a 0!
+Roll 18:
+Value: 0
+You rolled a 1!
+Roll 19:
+Value: 1
+You rolled a 2!
+Roll 20:
+Value: 2
+You rolled a 0!
+Roll 21:
+Value: 0
+You rolled a 3!
+Roll 22:
+Value: 3
+You rolled a 1!
+Roll 23:
+Value: 1
+You rolled a 0!
+Roll 24:
+Value: 0
+You rolled a 1!
+Roll 25:
+Value: 1
+You rolled a 1!
+Roll 26:
+Value: 1
+You rolled a 0!
+Roll 27:
+Value: 0
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 1!
+Roll 0:
+Value: 1
+You rolled a 0!
+Roll 1:
+Value: 0
+You rolled a 3!
+Roll 2:
+Value: 3
+You rolled a 2!
+Roll 3:
+Value: 2
+You rolled a 2!
+Roll 4:
+Value: 2
+You rolled a 1!
+Roll 5:
+Value: 1
+You rolled a 1!
+Roll 6:
+Value: 1
+You rolled a 0!
+Roll 7:
+Value: 0
+You rolled a 3!
+Roll 8:
+Value: 3
+You rolled a 0!
+Roll 9:
+Value: 0
+You rolled a 3!
+Roll 10:
+Value: 3
+You rolled a 3!
+Roll 11:
+Value: 3
+You rolled a 0!
+Roll 12:
+Value: 0
+You rolled a 3!
+Roll 13:
+Value: 3
+You rolled a 3!
+Roll 14:
+Value: 3
+You rolled a 1!
+Roll 15:
+Value: 1
+You rolled a 2!
+Roll 16:
+Value: 2
+You rolled a 3!
+Roll 17:
+Value: 3
+You rolled a 2!
+Roll 18:
+Value: 2
+You rolled a 0!
+Roll 19:
+Value: 0
+You rolled a 0!
+Roll 20:
+Value: 0
+You rolled a 3!
+Roll 21:
+Value: 3
+You rolled a 3!
+Roll 22:
+Value: 3
+You rolled a 0!
+Roll 23:
+Value: 0
+You rolled a 0!
+Roll 24:
+Value: 0
+You rolled a 2!
+Roll 25:
+Value: 2
+You rolled a 0!
+Roll 26:
+Value: 0
+You rolled a 3!
+Roll 27:
+Value: 3
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 3!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 2!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 2!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 3!
+Roll 0:
+Value: 3
+You rolled a 2!
+Roll 1:
+Value: 2
+You rolled a 2!
+Roll 2:
+Value: 2
+You rolled a 2!
+Roll 3:
+Value: 2
+You rolled a 2!
+Roll 4:
+Value: 2
+You rolled a 2!
+Roll 5:
+Value: 2
+You rolled a 1!
+Roll 6:
+Value: 1
+You rolled a 1!
+Roll 7:
+Value: 1
+You rolled a 2!
+Roll 8:
+Value: 2
+You rolled a 3!
+Roll 9:
+Value: 3
+You rolled a 0!
+Roll 10:
+Value: 0
+You rolled a 2!
+Roll 11:
+Value: 2
+You rolled a 3!
+Roll 12:
+Value: 3
+You rolled a 2!
+Roll 13:
+Value: 2
+You rolled a 3!
+Roll 14:
+Value: 3
+You rolled a 0!
+Roll 15:
+Value: 0
+You rolled a 1!
+Roll 16:
+Value: 1
+You rolled a 0!
+Roll 17:
+Value: 0
+You rolled a 3!
+Roll 18:
+Value: 3
+You rolled a 0!
+Roll 19:
+Value: 0
+You rolled a 0!
+Roll 20:
+Value: 0
+You rolled a 0!
+Roll 21:
+Value: 0
+You rolled a 0!
+Roll 22:
+Value: 0
+You rolled a 0!
+Roll 23:
+Value: 0
+You rolled a 3!
+Roll 24:
+Value: 3
+You rolled a 0!
+Roll 25:
+Value: 0
+You rolled a 3!
+Roll 26:
+Value: 3
+You rolled a 0!
+Roll 27:
+Value: 0
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 2!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 1!
+Roll 0:
+Value: 1
+You rolled a 3!
+Roll 1:
+Value: 3
+You rolled a 2!
+Roll 2:
+Value: 2
+You rolled a 3!
+Roll 3:
+Value: 3
+You rolled a 3!
+Roll 4:
+Value: 3
+You rolled a 1!
+Roll 5:
+Value: 1
+You rolled a 3!
+Roll 6:
+Value: 3
+You rolled a 2!
+Roll 7:
+Value: 2
+You rolled a 2!
+Roll 8:
+Value: 2
+You rolled a 0!
+Roll 9:
+Value: 0
+You rolled a 1!
+Roll 10:
+Value: 1
+You rolled a 3!
+Roll 11:
+Value: 3
+You rolled a 2!
+Roll 12:
+Value: 2
+You rolled a 2!
+Roll 13:
+Value: 2
+You rolled a 3!
+Roll 14:
+Value: 3
+You rolled a 0!
+Roll 15:
+Value: 0
+You rolled a 1!
+Roll 16:
+Value: 1
+You rolled a 1!
+Roll 17:
+Value: 1
+You rolled a 1!
+Roll 18:
+Value: 1
+You rolled a 1!
+Roll 19:
+Value: 1
+You rolled a 3!
+Roll 20:
+Value: 3
+You rolled a 1!
+Roll 21:
+Value: 1
+You rolled a 3!
+Roll 22:
+Value: 3
+You rolled a 1!
+Roll 23:
+Value: 1
+You rolled a 0!
+Roll 24:
+Value: 0
+You rolled a 2!
+Roll 25:
+Value: 2
+You rolled a 1!
+Roll 26:
+Value: 1
+You rolled a 3!
+Roll 27:
+Value: 3
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Score: 589
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+New Highscore: 589
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Your highscore is 589
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 3!
+Roll 0:
+Value: 3
+You rolled a 2!
+Roll 1:
+Value: 2
+You rolled a 1!
+Roll 2:
+Value: 1
+You rolled a 1!
+Roll 3:
+Value: 1
+You rolled a 2!
+Roll 4:
+Value: 2
+You rolled a 2!
+Roll 5:
+Value: 2
+You rolled a 1!
+Roll 6:
+Value: 1
+You rolled a 3!
+Roll 7:
+Value: 3
+You rolled a 3!
+Roll 8:
+Value: 3
+You rolled a 3!
+Roll 9:
+Value: 3
+You rolled a 0!
+Roll 10:
+Value: 0
+You rolled a 0!
+Roll 11:
+Value: 0
+You rolled a 3!
+Roll 12:
+Value: 3
+You rolled a 1!
+Roll 13:
+Value: 1
+You rolled a 3!
+Roll 14:
+Value: 3
+You rolled a 1!
+Roll 15:
+Value: 1
+You rolled a 1!
+Roll 16:
+Value: 1
+You rolled a 0!
+Roll 17:
+Value: 0
+You rolled a 3!
+Roll 18:
+Value: 3
+You rolled a 1!
+Roll 19:
+Value: 1
+You rolled a 3!
+Roll 20:
+Value: 3
+You rolled a 1!
+Roll 21:
+Value: 1
+You rolled a 2!
+Roll 22:
+Value: 2
+You rolled a 1!
+Roll 23:
+Value: 1
+You rolled a 0!
+Roll 24:
+Value: 0
+You rolled a 1!
+Roll 25:
+Value: 1
+You rolled a 2!
+Roll 26:
+Value: 2
+You rolled a 1!
+Roll 27:
+Value: 1
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 2!
+Roll 0:
+Value: 2
+You rolled a 0!
+Roll 1:
+Value: 0
+You rolled a 3!
+Roll 2:
+Value: 3
+You rolled a 3!
+Roll 3:
+Value: 3
+You rolled a 3!
+Roll 4:
+Value: 3
+You rolled a 2!
+Roll 5:
+Value: 2
+You rolled a 2!
+Roll 6:
+Value: 2
+You rolled a 0!
+Roll 7:
+Value: 0
+You rolled a 0!
+Roll 8:
+Value: 0
+You rolled a 0!
+Roll 9:
+Value: 0
+You rolled a 3!
+Roll 10:
+Value: 3
+You rolled a 1!
+Roll 11:
+Value: 1
+You rolled a 0!
+Roll 12:
+Value: 0
+You rolled a 2!
+Roll 13:
+Value: 2
+You rolled a 0!
+Roll 14:
+Value: 0
+You rolled a 3!
+Roll 15:
+Value: 3
+You rolled a 3!
+Roll 16:
+Value: 3
+You rolled a 0!
+Roll 17:
+Value: 0
+You rolled a 0!
+Roll 18:
+Value: 0
+You rolled a 0!
+Roll 19:
+Value: 0
+You rolled a 0!
+Roll 20:
+Value: 0
+You rolled a 0!
+Roll 21:
+Value: 0
+You rolled a 0!
+Roll 22:
+Value: 0
+You rolled a 1!
+Roll 23:
+Value: 1
+You rolled a 2!
+Roll 24:
+Value: 2
+You rolled a 3!
+Roll 25:
+Value: 3
+You rolled a 0!
+Roll 26:
+Value: 0
+You rolled a 3!
+Roll 27:
+Value: 3
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 0!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 1!
+Roll 0:
+Value: 1
+You rolled a 3!
+Roll 1:
+Value: 3
+You rolled a 1!
+Roll 2:
+Value: 1
+You rolled a 3!
+Roll 3:
+Value: 3
+You rolled a 0!
+Roll 4:
+Value: 0
+You rolled a 1!
+Roll 5:
+Value: 1
+You rolled a 0!
+Roll 6:
+Value: 0
+You rolled a 1!
+Roll 7:
+Value: 1
+You rolled a 3!
+Roll 8:
+Value: 3
+You rolled a 3!
+Roll 9:
+Value: 3
+You rolled a 1!
+Roll 10:
+Value: 1
+You rolled a 3!
+Roll 11:
+Value: 3
+You rolled a 1!
+Roll 12:
+Value: 1
+You rolled a 0!
+Roll 13:
+Value: 0
+You rolled a 2!
+Roll 14:
+Value: 2
+You rolled a 1!
+Roll 15:
+Value: 1
+You rolled a 1!
+Roll 16:
+Value: 1
+You rolled a 2!
+Roll 17:
+Value: 2
+You rolled a 1!
+Roll 18:
+Value: 1
+You rolled a 2!
+Roll 19:
+Value: 2
+You rolled a 0!
+Roll 20:
+Value: 0
+You rolled a 1!
+Roll 21:
+Value: 1
+You rolled a 0!
+Roll 22:
+Value: 0
+You rolled a 0!
+Roll 23:
+Value: 0
+You rolled a 3!
+Roll 24:
+Value: 3
+You rolled a 1!
+Roll 25:
+Value: 1
+You rolled a 0!
+Roll 26:
+Value: 0
+You rolled a 2!
+Roll 27:
+Value: 2
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 0!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+You rolled a 3!
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Score: 940
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+New Highscore: 940
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Your highscore is 940
+Main menu: Choose an option:
+[1] ROLL ALL THE DICE
+[2] ROLL A SINGLE DIE
+[3] CALCULATE THE SCORE FOR THIS SET
+[4] SAVE THIS SCORE AS HIGH SCORE
+[5] DISPLAY THE HIGH SCORE
+[Q] Quit
+Goodbye!
