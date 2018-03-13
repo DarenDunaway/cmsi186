@@ -1,0 +1,32 @@
+Minute hand:
+
+360% / 60 mins
+36 / 6
+6 / 1
+6 / 60 secs
+
+Hour hand:
+
+360% / 12 hours
+30% / 60 mins
+0.5 / minutes
+0.5 / 60 seconds
+
+Tick size:
+- *Determines the angles of the clock hand at specific time intervals*
+- *Keep track of Delta*
+Ex: 0.01 tick size(1 sec) you would have 43200 ticks(seconds) in 12 hours
+
+Zero degrees = new hour
+
+Time Slice:
+- <=1800.0
+- Should handle int arguments like 23
+- check for strings
+
+WHILE totalSeconds are less than 43200 || true KEEP LOOPING
+
+When the angles match, PRINT hh:mm:ss by calculating total seconds, minutes, and hours
+
+automated outputs
+Ex: java HighRoll 7 8 < input.txt > output.txt
