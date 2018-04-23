@@ -482,18 +482,7 @@ public class BrobInt {
    }
 
    public String toString() {
-      StringBuilder string2 = new StringBuilder();
-      String intVersionOutput = "";
-      for( int i = 0; i < this.brobArray.length; i++ ) {
-         intVersionOutput = intVersionOutput.concat( Integer.toString( this.brobArray[i] ) );
-      }
-      intVersionOutput = new String( new StringBuffer( intVersionOutput ).reverse() );
-      if ( sign == 1 ) {
-         string2.append('-' + internalValue);
-         return string2.toString();
-      } else {
-         return internalValue;
-      }
+      return internalValue;
    }
 
    public void toArray(int[] value) {
