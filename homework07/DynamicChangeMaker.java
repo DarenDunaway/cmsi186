@@ -171,7 +171,7 @@ public class DynamicChangeMaker {
         denominations[k] = output[k];
       }
 
-      System.out.println(Arrays.toString(denominations));
+      // System.out.println(Arrays.toString(denominations));
 
       return denominations;
     }
@@ -211,7 +211,7 @@ public class DynamicChangeMaker {
      *
      * @throws IllegalArgumentException if there are any duplicates
      *
-     * @return the optimal way of making change for that target amount using those denominations 
+     * @return the optimal way of making change for that target amount using those denominations
      */
     public static Tuple makeChangeWithDynamicProgramming(int[] denominations, int target) {
       Tuple optimalValue = new Tuple(denominations.length);
@@ -222,7 +222,7 @@ public class DynamicChangeMaker {
 
         // System.out.println("Inside!");
 
-        printLines((target + 1));
+        // printLines((target + 1));
 
         for (int i = 0; i < denominations.length; i++) {
           // System.out.print("|");
@@ -256,20 +256,20 @@ public class DynamicChangeMaker {
 
             optimalValue = table[i][j];
 
-            if (j == table[i].length - 1) {
-              System.out.println(String.format(" %s |", optimalValue));
-            } else {
-              System.out.print(String.format(" %s |", optimalValue));
-            }
+            // if (j == table[i].length - 1) {
+            //   System.out.println(String.format(" %s |", optimalValue));
+            // } else {
+            //   System.out.print(String.format(" %s |", optimalValue));
+            // }
 
           }
         }
 
-        printLines((target + 1));
+        // printLines((target + 1));
 
         return table[denominations.length - 1][target];
       } else {
-        printLines((target + 1));
+        // printLines((target + 1));
         return Tuple.IMPOSSIBLE;
       }
 

@@ -82,7 +82,7 @@ public class Tuple {
    * @return whether the tuple is imposible
    */
    public boolean isImpossible() {
-      return this == IMPOSSIBLE;
+      return this.equals(IMPOSSIBLE);
    }
 
   /**
